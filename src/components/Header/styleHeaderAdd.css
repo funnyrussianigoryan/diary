@@ -1,0 +1,83 @@
+.styleHeaderAdd {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    align-self: baseline; 
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+    .styleHeaderAdd .button {
+        height: 20px;
+        width: 125px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        user-select: none;
+        padding: 5px 10px;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 5px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease s;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+
+        .styleHeaderAdd .button:hover {
+            color: rgb(24,24,24);
+            border: 1px solid rgb(198,198,198);
+            background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+            box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        }
+
+        .styleHeaderAdd .button:active {
+            color: rgb(51,51,51);
+            border: 1px solid rgb(204,204,204);
+            background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+            box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }
+
+    .styleHeaderAdd .context {
+        position: relative;
+        top: 30%;
+        left: 10%;
+        align-self: flex-end;
+        justify-self: flex-end;
+        height: auto;
+        width: 230px;
+        background-color: white;
+        border: 1px grey solid;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 7px #000;
+    }
+
+        .styleHeaderAdd .context .date {
+            margin: 5px;
+            height: 25px;
+            width: 200px;
+        }
+    
+        .styleHeaderAdd .context .contain {
+            margin: 5px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .styleHeaderAdd .context label {
+            margin: 5px;
+            font-size: 15px;
+        }
+        
+        .styleHeaderAdd .context input {
+            width: 200px;
+            height: 25px;
+            margin: 5px;
+        }
+
+
+        .styleHeaderAdd .context .button {
+            width: auto;
+        }

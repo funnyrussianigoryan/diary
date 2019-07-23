@@ -1,0 +1,29 @@
+.calendar {
+    grid-row: 3 / 3;
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: minmax(1fr, 50px) minmax(700px, 1100px) minmax(1fr, 50px);
+}
+
+.weekDays {
+    grid-column: 2 / 2;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(100px, 150px));
+    grid-template-rows: 20px;
+    grid-gap: 3px; 
+}
+
+.calendarDays {
+    grid-column: 2 / 2;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(100px, 150px));
+    grid-template-rows: repeat(6, minmax(100px, 150px));
+    grid-gap: 3px;
+}
+
+.weekDay {
+    font-size: 12px;
+    color: grey;
+    justify-self: center;
+}

@@ -1,0 +1,51 @@
+.calendarDay {
+    border: 1px solid rgb(212, 212, 212);
+    user-select: none;
+    background-color: rgb(238, 243, 245);
+}
+
+.calendarDay:hover {
+    background-color: whitesmoke;
+}
+    .calendarDay .date {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .calendarDay .event {
+        font-size: 15px;
+        margin: 5px;
+        align-self: flex-end;
+    }
+
+    .calendarDay .forClick {
+        display: flex;
+        flex-direction: column;
+        user-select: none;
+        height: 150px;
+        flex-wrap: wrap; 
+    }
+
+    .forClick .date {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .forClick .event {
+        font-size: 15px;
+        margin: 5px;
+        align-self: flex-end;
+    }
+
+    .activeMonth {
+        background-color: white;
+    }
+
+    .today {
+        border: 3px rgb(241, 196, 196) solid;
+    }
+
+.done {
+    text-decoration: line-through;
+}
+    

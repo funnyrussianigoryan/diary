@@ -1,0 +1,41 @@
+.eventData {
+    height: auto;
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+    .eventData .time {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .eventData .eventAndDescription {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eventData .event {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .eventData .description {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .eventData .done {
+        text-decoration: line-through;
+    }
+
+#delete {
+color: red;
+}
+
+#done {
+color: green;
+}

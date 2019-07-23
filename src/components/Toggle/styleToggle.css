@@ -1,0 +1,6 @@
+.toggle {
+    grid-row: 2 / 2;
+    display: flex;
+    align-self: center;
+    justify-self: center;  
+}
